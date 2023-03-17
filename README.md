@@ -1,2 +1,2 @@
 # Python3_public
-Just all code written in Python programming language but public.
+Just all stuff connected with Python programming language but public.
