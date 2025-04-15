@@ -15,9 +15,7 @@ from wikipedia import exceptions as wkex
 
 # print(data['Fact/event'][119:])
 def find_articles(file: str):
-    ef = pd.read_excel(
-        "C:\\Users\\Jrytoeku Qtuhtc\Desktop\my_projects\\"
-        "my_icebergs\Iceberg_math.xlsx", 'Математика')
+    ef = pd.read_excel("my_icebergs\Iceberg_math.xlsx", 'Математика')
     data = pd.DataFrame(ef, columns=['Fact/event',
                                      'Известность (в тысячах)',
                                      'Ссылки'])
@@ -344,10 +342,7 @@ def complexity_difiner(links_file):
     f1 = open(links_file, 'r', encoding='utf-8')
     f2 = open('difty.txt', 'w')
     
-    browser = webdriver.Chrome("C:\\Users\Jrytoeku Qtuhtc\\"
-                               ".wdm\drivers\\"
-                               "chromedriver\win64\\115.0.5790.173\\"
-                               "chromedriver.exe")
+    browser = webdriver.Chrome(".wdm\drivers\\chromedriver\win64\\115.0.5790.173\\chromedriver.exe")
     browser.get("http://www.roadtogrammar.com/textanalysis/")
     
     for line in f1.readlines():
