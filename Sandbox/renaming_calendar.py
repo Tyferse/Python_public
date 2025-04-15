@@ -4,8 +4,7 @@ import pytesseract
 from PIL import Image
 
 
-image = r'C:\Users\Jrytoeku Qtuhtc\Pictures\Saved Images\
-          Saved Pictures\FEFU 1 cource\Games2022-2023\Calendar'
+image = r'Calendar\'
 preprocess = "thresh"
 
 # загрузить образ и преобразовать его в оттенки серого
