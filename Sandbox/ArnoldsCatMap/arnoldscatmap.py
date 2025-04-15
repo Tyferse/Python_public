@@ -43,11 +43,11 @@ def main(path, iterations, name, keep_all=False):
 
 
 if __name__ == "__main__":
-    # path = "C:\\Users\\Lenovo\\PycharmProjects\\Arnolds_Cat\\a\\0.png" #input("Enter the path to an image:\n\t")
-    # result = main(path, 31, "C:\\Users\\Lenovo\\PycharmProjects\\Arnolds_Cat\\a\\aea.png")
+    # path = "Arnolds_Cat\\a\\0.png" #input("Enter the path to an image:\n\t")
+    # result = main(path, 31, "Arnolds_Cat\\a\\aea.png")
     # result.show()
     
-    ifolder = "C:\Code\Python3\Sandbox#py\ArnoldsCatMap\\frames7\\"
+    ifolder = "Python3\Sandbox#py\ArnoldsCatMap\\frames7\\"
     for i in range(256):
         path = ifolder + str(i) + ".png"
         result = main(path, 2, ifolder + str(i + 1) + ".png")
