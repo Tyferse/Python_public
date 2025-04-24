@@ -160,5 +160,5 @@ def create_yt_graphics(i: int):
     warehouse.close()
 
 
-load_yt_stats('https://www.youtube.com/c/Akwin')
+load_yt_stats('https://www.youtube.com/')
 create_yt_graphics(9)
