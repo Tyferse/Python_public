@@ -11,6 +11,6 @@ plt.plot(t, y3, 'yo--')
 
 plt.xlabel('t')
 plt.ylabel('y')
-plt.title("This shit's cool!")
+plt.title("This s***'s cool!")
 plt.legend(['t**2*2', 't**3*3', 't**4*4'], loc='upper left')
 plt.savefig('graph.png')
